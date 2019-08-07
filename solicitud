@@ -1,0 +1,159 @@
+<div id="content" class="page-wrap"><header class="entry-header " data-czr-template="templates/parts/content/singular/headings/regular_page_heading" data-czr-model_id="regular_page_heading">
+<div class="entry-header-inner" style="text-align: left;">&nbsp;</div>
+</header>
+<div class="post-entry tc-content-inner">
+<section class="post-content entry-content ">
+<div class="czr-wp-the-content" style="text-align: left;">
+<section><header id="masthead" class="site-header" role="banner">Para solicitar un préstamo debe llenar el siguiente formulario con los datos que se le indican en cada casilla y luego presionar el botón de Enviar</header></section>
+</div>
+</section>
+</div>
+<form class="wpcf7-form" action="/formulario/formularioregistro.php" enctype="multipart/form-data" method="post">
+
+<h2><span>DATOS DEL SOLICITANTE</span></h2>
+<p style="text-align: left;"><strong>Nombre Completo:</strong><br><strong><span class="wpcf7-form-control-wrap your-name czr-focus"><input class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required czr-focusable" name="your-name" required="" size="40" type="text" value=""></span></strong></p>
+<p style="text-align: left;"><strong>Cedula de Identidad:</strong><br><strong><span class="wpcf7-form-control-wrap your-Cedula czr-focus"><input class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required czr-focusable" name="your-cedula" required="" size="40" type="text" value=""></span></strong></p>
+<p style="text-align: left;"><strong>Celular:</strong><br><strong><span class="wpcf7-form-control-wrap your-celular czr-focus"><input class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required czr-focusable" name="your-celular" required="" size="40" type="text" value=""></span></strong></p>
+<p style="text-align: left;"><strong>Telefono Casa:</strong><br><strong><span class="wpcf7-form-control-wrap your-local czr-focus"><input class="wpcf7-form-control wpcf7-text czr-focusable" name="your-local" size="40" type="text" value=""></span></strong></p>
+<p style="text-align: left;"><strong>Telefono Trabajo:</strong><br><strong><span class="wpcf7-form-control-wrap your-oficina czr-focus"><input class="wpcf7-form-control wpcf7-text czr-focusable" name="ext_empresa" size="40" type="text" value=""></span></strong></p>
+<p style="text-align: left;"><strong>Extensión:</strong><br><strong><span class="wpcf7-form-control-wrap your-oficina czr-focus"><input class="wpcf7-form-control wpcf7-text czr-focusable" name="your-oficina" size="40" type="text" value=""></span></strong></p>
+<p style="text-align: left;"><strong>Correo electrónico</strong><br><strong><span class="wpcf7-form-control-wrap your-ext czr-focus"><input class="wpcf7-form-control wpcf7-text czr-focusable" name="your-email" size="40" type="text" value=""></span></strong></p>
+
+
+<h2><span>DATOS LABORALES</span></h2>
+<p style="text-align: left;"><strong>Empresa donde labora:</strong><br><strong><span class="wpcf7-form-control-wrap your-trabajo czr-focus"><input class="wpcf7-form-control wpcf7-text czr-focusable" name="your-trabajo" size="40" type="text" value=""></span></strong></p>
+<p style="text-align: left;"><strong>Direccion de la empresa:</strong><br><strong><span class="wpcf7-form-control-wrap your-trabajo-direccion czr-focus"><input class="wpcf7-form-control wpcf7-text czr-focusable" name="your-trabajo-direccion" size="40" type="text" value=""></span></strong></p>
+<p style="text-align: left;"><strong>Cargo o Puesto:</strong><br><strong><span class="wpcf7-form-control-wrap your-cargo czr-focus"><input class="wpcf7-form-control wpcf7-text czr-focusable" name="your-cargo" size="40" type="text" value=""></span></strong></p>
+<p style="text-align: left;"><strong>Fecha de ingreso al trabajo:</strong><br><strong><span class="wpcf7-form-control-wrap text-499 czr-focus"><input class="wpcf7-form-control wpcf7-text czr-focusable" name="fecha-ingreso" size="40" type="date" value=""></span></strong></p>
+<p style="text-align: left;"><strong>Sueldo:</strong><br><strong><span class="wpcf7-form-control-wrap your-sueldo czr-focus"><input class="wpcf7-form-control wpcf7-text czr-focusable" name="your-sueldo" size="40" type="text" value=""></span></strong></p>
+<p style="text-align: left;"><strong>Frecuencia de pago:</strong></p>
+<p style="text-align: left;"><strong><span class="wpcf7-form-control-wrap text-499 czr-focus"><select name="menu-estado" required="">
+<option value="">Seleccioné su frecuencia de pago</option>
+<option value="Semanal">Semanal</option>
+<option value="Bisemanal">Bisemanal</option>
+<option value="Quincenal">Quincenal</option>
+<option value="Mensual">Mensual</option>
+</select></span></strong></p>
+<p style="text-align: left;"><strong>A través de cual banco les pagan su sueldo?</strong></p>
+<p style="text-align: left;"><strong><span class="wpcf7-form-control-wrap your-email czr-focus"><select name="menu-banco" required="">
+<option value="">Seleccioné a través de cual banco les pagan su sueldo?</option>
+<option value="POPULAR">POPULAR</option>
+<option value="BANRESERVAS">BANRESERVAS</option>
+<option value="BHD LEON">BHD LEON</option>
+<option value="PROGRESO">PROGRESO</option>
+<option value="SCOTIABANK">SCOTIABANK</option>
+<option value="BANCO BDI">BANCO BDI</option>
+<option value="Otro">Otro</option>
+</select></span></strong></p>
+<p style="text-align: left;"><strong>Tiempo Laborando en la Empresa:</strong></p>
+<p style="text-align: left;"><strong><span class="wpcf7-form-control-wrap text-499 czr-focus"><select name="menu-tiempolaborando" required="">
+<option value="">Seleccioné el tiempo Laborando en la Empresa</option>
+<option value="0-5 Meses">0-5 Meses</option>
+<option value="6-11 Meses">6-11 Meses</option>
+<option value="1-2 Años">1-2 Años</option>
+<option value="2-5 Años">2-5 Años</option>
+<option value="5-10 Años">5-10 Años</option>
+<option value="11 años o más">11 años o más</option>
+</select></span></strong></p>
+
+<h2><span>DATOS FAMILIARES</span></h2>
+
+<p style="text-align: left;"><strong>Estado civil:</strong></p>
+<p style="text-align: left;"><strong><span class="wpcf7-form-control-wrap text-499 czr-focus"><select name="menu-estado" required="">
+<option value="">Seleccioné su estado civil</option>
+<option value="Soltero/a">Soltero/a</option>
+<option value="Comprometido/a">Comprometido/a</option>
+<option value="Casado/a">Casado/a</option>
+<option value="Separado/a">Separado/a</option>
+<option value="Divorciado/a">Divorciado/a</option>
+<option value="Unión libre">Unión libre</option>
+<option value="En Relación">En Relación</option>
+<option value="Noviazgo">Noviazgo</option>
+<option value="Viudo/a">Viudo/a</option>
+</select></span></strong></p>
+
+<p style="text-align: left;"><strong>La vivienda es:</strong></p>
+<p style="text-align: left;"><strong><span class="wpcf7-form-control-wrap text-499 czr-focus"><select name="menu-estado" required="">
+<option value="">Seleccioné su estado de la vivienda</option>
+<option value="Soltero/a">Propia</option>
+<option value="Comprometido/a">Alquilada</option>
+<option value="Casado/a">Familiar</option>
+<option value="Separado/a">Finaciada</option>
+<option value="Divorciado/a">Prestada</option>
+<option value="Unión libre">Otro</option>
+</select></span></strong></p>
+
+<p style="text-align: left;"><strong>Personas que dependen de usted:</strong></p>
+<p style="text-align: left;"><strong><span class="wpcf7-form-control-wrap text-499 czr-focus"><select name="menu-estado" required="">
+<option value="">Seleccioné # de dependiente</option>
+<option value="Unión libre">Nadie</option>
+<option value="Soltero/a">Persona 1</option>
+<option value="Comprometido/a">Personas 2</option>
+<option value="Casado/a">Personas 3</option>
+<option value="Separado/a">Personas 4</option>
+<option value="Divorciado/a">Personas 5</option>
+<option value="Unión libre">Personas 6</option>
+</select></span></strong></p>
+
+<h2><span>DATOS DEL PRESTAMOS</span></h2>
+<p style="text-align: left;"><strong>Monto del Préstamo:</strong></p>
+<p style="text-align: left;"><strong><span class="wpcf7-form-control-wrap your-trabajo czr-focus"><select name="menu-montop" required="">
+<option value="">Seleccioné el monto del Préstamo</option>
+<option value="RD$5,000">RD$5,000</option>
+<option value="RD$6,000">RD$6,000</option>
+<option value="RD$8,000">RD$8,000</option>
+<option value="RD$10,000">RD$10,000</option>
+<option value="RD$12,000">RD$12,000</option>
+<option value="RD$15,000">RD$15,000</option>
+<option value="RD$18,000">RD$18,000</option>
+<option value="RD$20,000">RD$20,000</option>
+<option value="RD$22,000">RD$22,000</option>
+<option value="RD$25,000">RD$25,000</option>
+</select></span></strong></p>
+
+<p style="text-align: left;"><strong>Cuotas convenientes:</strong></p>
+<p style="text-align: left;"><strong><span class="wpcf7-form-control-wrap your-trabajo czr-focus"><select name="menu-montop" required="">
+<option value="">Seleccioné el numero de cuotas</option>
+<option value="RD$5,000">4 Cuotas</option>
+<option value="RD$6,000">5 Cuotas</option>
+<option value="RD$8,000">6 Cuotas</option>
+<option value="RD$10,000">8 Cuotas</option>
+<option value="RD$12,000">10 Cuotas</option>
+<option value="RD$15,000">12 Cuotas</option>
+<option value="RD$18,000">14 Cuotas</option>
+<option value="RD$20,000">16 Cuotas</option>
+<option value="RD$22,000">18 Cuotas</option>
+<option value="RD$25,000">20 Cuotas</option>
+</select></span></strong></p>
+
+<p style="text-align: left;"><strong>Asesor designado:</strong></p>
+<p style="text-align: left;"><strong><span class="wpcf7-form-control-wrap your-trabajo-direccion czr-focus"><select name="menu-asesor">
+<option value="">Seleccioné su asesor designado</option>
+<option value="Henrys Medina">Henrys Medina</option>
+<option value="Idekel Bernabes">Idekel Bernabes</option>
+<option value="Luis Meran">Luis Meran</option>
+<option value="Ninguno en especifico">Ninguno en especifico</option>
+</select></span></strong></p>
+<p style="text-align: left;"><strong>¿Cómo se entero de nosotros?</strong></p>
+<p style="text-align: left;"><strong><span class="wpcf7-form-control-wrap your-trabajo-direccion czr-focus"><select name="menu-referido">
+<option value="">Seleccioné ¿Cómo se entero de nosotros?</option>
+<option value="Facebook">Facebook</option>
+<option value="Internet">Internet</option>
+<option value="Un/a Promotor(a)">Un/a Promotor(a)</option>
+<option value="Un/a Compañero(a) Trabajo">Un/a Compañero(a) Trabajo</option>
+<option value="Un/a Amigo(a)">Un/a Amigo(a)</option>
+<option value="Una Publicidad/Promoción">Una Publicidad/Promoción</option>
+<option value="Otro">Otro</option>
+</select></span></strong></p>
+<p style="text-align: left;"><strong>Comentarios o Mensajes:</strong><br><span class="wpcf7-form-control-wrap Comentarios czr-focus"><textarea class="wpcf7-form-control wpcf7-textarea czr-focusable" cols="60" name="Comentarios" rows="10"></textarea></span></p>
+<p style="text-align: left;"><strong><span class="wpcf7-form-control-wrap estautus czr-focus"><input class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required czr-focusable" name="estatus" required="" size="40" type="hidden" value="01-SOLICITUD "></span></strong></p>
+<p align="left"><input class="wpcf7-form-control wpcf7-submit" type="submit" value="Enviar"></p>
+</form></div>
+<div class="czr-wp-the-content">
+<p class="nota" style="text-align: left;"><strong>Nota:</strong> Al enviar esta solicitud de préstamo, usted está autorizando a la empresa <a href="https://www.solufime.com/quienes-somos/" target="_blank" rel="noopener"><strong>Soluciones Fix &amp; Medina, S.R.L.</strong></a>, la cual recibe esta información, a que investigue su historial de crédito y actividades relacionadas en los diferentes Buró de Crédito del país.</p>
+<p style="text-align: left;">Para ver la una <a href="https://www.solufime.com/tabla-de-cuotas/">tabla de cuotas</a> quincenales en formato .pdf , haga clic –&gt; <a href="https://www.solufime.com/wp-content/uploads/2018/05/Tabla-de-Cuotas-Quincenales.pdf" target="_blank" rel="noopener">Tabla de cuotas</a></p>
+<p style="text-align: left;">Puedes contactarnos por las siguientes vías:</p>
+<p>Oficina:&nbsp; &nbsp; &nbsp; &nbsp; (829) 593-8694</p>
+<p style="text-align: left;">Whatsapp :&nbsp;(829) 593-8694</p>
+<p style="text-align: left;">E-mail a <a title="Envianos un email" href="mailto:solufime@outlook.com">solufime@outlook.com</a></p>
+</div>
